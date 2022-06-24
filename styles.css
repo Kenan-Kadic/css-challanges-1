@@ -1,0 +1,61 @@
+/* 
+1. Header moved to center is DONE
+2. Header background color gray is DONE
+3. 65.00$ made larger is DONE
+4. Entire page has a 5px border is DONE
+5. Free shipping turned lightgray and capitalized is DONE.
+6. Link has no text decoration - is DONE
+7. Add to cart button is black is DONE
+8. Color of button text is white is DONE
+9. Button letters are capitalized is DONE
+10. Text is sans-serif is DONE
+11. Make product details UPPERCASE is DONE
+*/
+
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: #d7d7d7c2;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+#shipping {
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orangered;
+}
+
+a:visited {
+  color: blue;
+}
+
+.button {
+  font-size: larger;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
