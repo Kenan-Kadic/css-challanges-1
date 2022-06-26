@@ -1,19 +1,15 @@
-/* 
-1. Header moved to center is DONE
-2. Header background color gray is DONE
-3. 65.00$ made larger is DONE
-4. Entire page has a 5px border is DONE
-5. Free shipping turned lightgray and capitalized is DONE.
-6. Link has no text decoration - is DONE
-7. Add to cart button is black is DONE
-8. Color of button text is white is DONE
-9. Button letters are capitalized is DONE
-10. Text is sans-serif is DONE
-11. Make product details UPPERCASE is DONE
-*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 5px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
 
 body {
-  border: 5px solid black;
   font-family: sans-serif;
 }
 
@@ -24,16 +20,23 @@ h1 {
 
 h3 {
   font-size: 30px;
+  margin-bottom: 15px;
 }
 
 h4 {
   text-transform: uppercase;
+  margin: 15px;
+}
+
+.post-image {
+  margin-bottom: 15px;
 }
 
 #shipping {
   color: #444;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 a:link {
@@ -49,13 +52,50 @@ a:active {
   color: orangered;
 }
 
-a:visited {
-  color: blue;
-}
+/* a:visited {
+  color: blue;} */
 
 .button {
   font-size: larger;
   text-transform: uppercase;
   background-color: black;
   color: white;
+  width: 100%;
 }
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#main-text {
+  margin-bottom: 15px;
+}
+
+/*  CHALLANGE 1
+1. Header moved to center is DONE
+2. Header background color gray is DONE
+3. 65.00$ made larger is DONE
+4. Entire page has a 5px border is DONE
+5. Free shipping turned lightgray and capitalized is DONE.
+6. Link has no text decoration - is DONE
+7. Add to cart button is black is DONE
+8. Color of button text is white is DONE
+9. Button letters are capitalized is DONE
+10. Text is sans-serif is DONE
+11. Make product details UPPERCASE is DONE
+*/
+
+/* CHALLANGE 2
+1. Whole page is in center with margin auto DONE
+2. Whole page is maybe 800px wide DONE
+3. Top Padding to border is zero DONE
+4. From top header to image is zero padding DONE
+5. More information is underlined in black
+6. There is a small space between each one of the three product details
+7. Add to card buttons spans 100% width of page DONE
+*/
